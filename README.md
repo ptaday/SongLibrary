@@ -59,9 +59,7 @@ $ cd SongLibrary
 $ javac Main.java 
 $ java Main
 ```
-Follow the prompts in the command-line interface to interact with the warehouse management system. The system will guide you through adding new books, loaning books, duplicating textbooks, organizing shelves, and more.
-
-Please note that the interface will match the specifications and guidelines provided in the project description.
+Follow the prompts in the command-line interface to interact with the SongLibrary management system. You can create users, add songs, create playlists, manage songs within playlists, and more.
 
 ## Contribution
 
