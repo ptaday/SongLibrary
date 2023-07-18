@@ -1,30 +1,79 @@
-Description
+# SongLibrary
 
-A library containing songs of all different genres has recently been created. Because of the popularity of this new library, users have been creating many playlists on this new platform. This library is called the SongLibrary. Inside the SongLibrary class, there is an ArrayList keeping track of all Users. The User class contains the user’s username and an ArrayList of all of the user’s Playlists. The Playlist class contains the playlist title and an ArrayList of Songs. Finally, the Song class contains songName, artistName, and duration of the song, all stored as Strings and all of which should have get methods.
+> A library of songs and playlists management system written in Java.
 
-Write the SongLibrary, User, Playlist, and Song classes.
+## Table of Contents
 
-In SongLibrary, you should be able to add and remove users. You should also be able to get all playlists of a specific user. 
+- [Description](#description)
+- [Features](#features)
+- [Prerequisites](#prerequisites)
+- [Installation](#installation)
+- [Usage](#usage)
+- [Contributing](#contributing)
+- [License](#license)
+- [Contact](#contact)
 
-In User,  you should be able to:
-get the user’s username
-add playlists
-remove that specific playlist when given a String title of a playlist
-get all playlists belonging to the user
-get a playlist given the playlist title
-make a collaborative playlist by writing the method void makeCollaborativePlaylist(String playlistTitle, User friend), which allows a user to add a playlist of theirs to a friend’s list of playlists. Keep in mind that it should be the same object and not a copy. If the user or their friend updates the playlist, it should update on both the user’s end and their friend’s end. 
+## Description
 
+The SongLibrary is a Java library that contains songs of different genres. Users can create playlists and manage their favorite songs using this platform. The library's core functionality is implemented using three main classes:
+
+1. **SongLibrary**: The central class that keeps track of all users. It contains an ArrayList of User objects.
+
+2. **User**: Represents a user of the library. Each User object contains the user's username and an ArrayList of their playlists.
+
+3. **Playlist**: Represents a playlist created by a user. Each Playlist object contains the playlist title and an ArrayList of Songs.
+
+4. **Song**: Represents a song with its name, artist name, and duration, all stored as Strings. The Song class also provides getter methods for these attributes.
+
+## Features
+
+The SongLibrary management system offers the following features:
+
+1. Create and manage user accounts.
+2. Create and manage playlists with various songs.
+3. Add songs to playlists.
+4. View and manage songs within playlists.
+5. Retrieve song details such as name, artist, and duration using getter methods.
+
+## Prerequisites
+
+To use the SongLibrary management system, ensure you have the following installed on your computer:
+
+- Java Development Kit (JDK)
+- Git (optional, for cloning the repository)
+
+## Installation
+
+1. Clone the SongLibrary repository to your local machine (if you haven't already).
+
+```bash
+$ git clone https://github.com/yourusername/SongLibrary.git
+$ cd SongLibrary
+```
+
+## Usage
  
- 
-In Playlist, you should be able to:
-get and set the playlist title 
-add a song to the playlist
-remove a song given the song title (which will remove the first instance of the song title’s appearance)
-swap the position of two songs in the playlist by writing the method void swapSongs(Song song1, Song song2). If one or both of the songs do not exist in the playlist, then the swap does not occur.
-get the total time duration of the playlist, which is calculated by adding up the duration of all the songs and returns a String in the format of “totalMinutes min, totalSeconds sec”. You do not have to convert minutes to hours.
-sort songs in the playlist by songName, which should be done by implementing the Comparable interface in the Song class. If both songs have the same name, then sort based on artistName.
+ To compile and run the code locally
 
- 
-Lastly, the User, Playlist, and Song classes should also include toString() methods in order to produce the printed format shown in the example below.
+```bash
+$ javac Main.java 
+$ java Main
+```
+Follow the prompts in the command-line interface to interact with the warehouse management system. The system will guide you through adding new books, loaning books, duplicating textbooks, organizing shelves, and more.
+
+Please note that the interface will match the specifications and guidelines provided in the project description.
+
+## Contribution
+
+Contributions to the RipOffRental project are welcome! If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request. Please read CONTRIBUTING.md for details.
+
+## License
+This project is licensed under the MIT License - see the LICENSE file for details.
+
+## Contact
+If you have any questions or feedback, you can contact the project maintainer at:
+
+Email: pmtaday@gmail.com
+GitHub: @ptaday
 
  
