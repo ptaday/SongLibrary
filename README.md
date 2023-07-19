@@ -56,8 +56,8 @@ $ cd SongLibrary
  To compile and run the code locally
 
 ```bash
-$ javac Main.java 
-$ java Main
+$ javac Test.java 
+$ java Test
 ```
 Follow the prompts in the command-line interface to interact with the SongLibrary management system. You can create users, add songs, create playlists, manage songs within playlists, and more.
 
