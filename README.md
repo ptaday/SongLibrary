@@ -61,6 +61,8 @@ $ java Main
 ```
 Follow the prompts in the command-line interface to interact with the SongLibrary management system. You can create users, add songs, create playlists, manage songs within playlists, and more.
 
+Make sure to create a single package for all the classes and and include them in the first line of your code.
+
 ## Contribution
 
 Contributions to the SongLibrary project are welcome! If you find any issues or have suggestions for improvement, feel free to open an issue or submit a pull request. Please read CONTRIBUTING.md for details.
